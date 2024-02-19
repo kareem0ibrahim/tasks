@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-19T12:53:16 EET" name="Default suite" finished-at="2024-02-19T12:53:23 EET" duration-ms="7308">
+    <groups>
+    </groups>
+    <test started-at="2024-02-19T12:53:16 EET" name="Default test" finished-at="2024-02-19T12:53:23 EET" duration-ms="7308">
+      <class name="rest_assured.resttestcasess$JsonPlaceholderTest">
+        <test-method signature="testGetListOfPosts()[pri:0, instance:rest_assured.resttestcasess$JsonPlaceholderTest@4b0d79fc]" started-at="2024-02-19T12:53:16 EET" name="testGetListOfPosts" finished-at="2024-02-19T12:53:19 EET" duration-ms="3570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetListOfPosts -->
+        <test-method signature="testGetListOfUsers()[pri:0, instance:rest_assured.resttestcasess$JsonPlaceholderTest@4b0d79fc]" started-at="2024-02-19T12:53:19 EET" name="testGetListOfUsers" finished-at="2024-02-19T12:53:20 EET" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetListOfUsers -->
+        <test-method signature="testGetPostById()[pri:0, instance:rest_assured.resttestcasess$JsonPlaceholderTest@4b0d79fc]" started-at="2024-02-19T12:53:20 EET" name="testGetPostById" finished-at="2024-02-19T12:53:20 EET" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPostById -->
+        <test-method signature="testGetSingleUser()[pri:0, instance:rest_assured.resttestcasess$JsonPlaceholderTest@4b0d79fc]" started-at="2024-02-19T12:53:20 EET" name="testGetSingleUser" finished-at="2024-02-19T12:53:20 EET" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSingleUser -->
+        <test-method signature="testInvalidPostID()[pri:0, instance:rest_assured.resttestcasess$JsonPlaceholderTest@4b0d79fc]" started-at="2024-02-19T12:53:20 EET" name="testInvalidPostID" finished-at="2024-02-19T12:53:21 EET" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidPostID -->
+        <test-method signature="testInvalidUserID()[pri:0, instance:rest_assured.resttestcasess$JsonPlaceholderTest@4b0d79fc]" started-at="2024-02-19T12:53:21 EET" name="testInvalidUserID" finished-at="2024-02-19T12:53:22 EET" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidUserID -->
+        <test-method signature="testInvalidUserIDForPosts()[pri:0, instance:rest_assured.resttestcasess$JsonPlaceholderTest@4b0d79fc]" started-at="2024-02-19T12:53:22 EET" name="testInvalidUserIDForPosts" finished-at="2024-02-19T12:53:22 EET" duration-ms="630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidUserIDForPosts -->
+        <test-method signature="testValidateNameUsernameEmailForUser()[pri:0, instance:rest_assured.resttestcasess$JsonPlaceholderTest@4b0d79fc]" started-at="2024-02-19T12:53:22 EET" name="testValidateNameUsernameEmailForUser" finished-at="2024-02-19T12:53:23 EET" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateNameUsernameEmailForUser -->
+        <test-method signature="testValidatePostsForUser()[pri:0, instance:rest_assured.resttestcasess$JsonPlaceholderTest@4b0d79fc]" started-at="2024-02-19T12:53:23 EET" name="testValidatePostsForUser" finished-at="2024-02-19T12:53:23 EET" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidatePostsForUser -->
+      </class> <!-- rest_assured.resttestcasess$JsonPlaceholderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

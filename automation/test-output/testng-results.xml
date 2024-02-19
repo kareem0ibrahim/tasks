@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-18T12:18:17 EET" name="Default suite" finished-at="2024-02-18T12:18:21 EET" duration-ms="3853">
+    <groups>
+    </groups>
+    <test started-at="2024-02-18T12:18:17 EET" name="Default test" finished-at="2024-02-18T12:18:21 EET" duration-ms="3853">
+      <class name="tests.UserLoginTest">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.UserLoginTest@2e3967ea]" started-at="2024-02-18T12:18:12 EET" name="startDriver" finished-at="2024-02-18T12:18:17 EET" duration-ms="4865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="usercanloginsuccessfully()[pri:0, instance:tests.UserLoginTest@2e3967ea]" started-at="2024-02-18T12:18:17 EET" name="usercanloginsuccessfully" finished-at="2024-02-18T12:18:21 EET" duration-ms="3736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usercanloginsuccessfully -->
+        <test-method is-config="true" signature="stopdriver()[pri:0, instance:tests.UserLoginTest@2e3967ea]" started-at="2024-02-18T12:18:21 EET" name="stopdriver" finished-at="2024-02-18T12:18:21 EET" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopdriver -->
+      </class> <!-- tests.UserLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="8.502" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Add items to cart on eshop.vodafone.com.eg" name="Add items to cart - Example #1.1" time="8.286">
+<failure type="org.openqa.selenium.WebDriverException" message="unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [51086a007f3e7ab885b1d36b509ec64f, get {url=https://web.vodafone.com.eg/auth/realms/vf-realm/protocol/openid-connect/auth?client_id=eshop&amp;redirect_uri=https%3A%2F%2Feshop.vodafone.com.eg%2Fen%2F&amp;state=b905857e-64ad-4aa5-a0df-658d4728d690&amp;response_mode=query&amp;response_type=code&amp;scope=openid&amp;nonce=7e191f25-3fa1-4f71-85a6-c0c37aad8172&amp;ui_locales=en}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\KAREEM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49927}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49927/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 51086a007f3e7ab885b1d36b509ec64f">
+<![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=121.0.6167.185)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [51086a007f3e7ab885b1d36b509ec64f, get {url=https://web.vodafone.com.eg/auth/realms/vf-realm/protocol/openid-connect/auth?client_id=eshop&redirect_uri=https%3A%2F%2Feshop.vodafone.com.eg%2Fen%2F&state=b905857e-64ad-4aa5-a0df-658d4728d690&response_mode=query&response_type=code&scope=openid&nonce=7e191f25-3fa1-4f71-85a6-c0c37aad8172&ui_locales=en}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.185, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\KAREEM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49927}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49927/devtoo..., se:cdpVersion: 121.0.6167.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 51086a007f3e7ab885b1d36b509ec64f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+	at stepsdefinations.Steps.i_am_on_the_eshop_vodafone_homepage(Steps.java:24)
+	at ✽.I am on the eshop.vodafone.com.eg homepage(file:///C:/Users/KareemMohamed/eclipse-workspace/automation/src/test/resources/Features/EShop.feature:4)
+]]>
+</failure>
+<system-out><![CDATA[
+Given I am on the eshop.vodafone.com.eg homepage............................failed
+When I login "01111450166" and password "Vodaphone@task1"...................skipped
+And I select two items and add them to the cart.............................skipped
+And I search for an item and add it to the cart.............................skipped
+Then I should see three items in the cart...................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
